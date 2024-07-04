@@ -29,12 +29,16 @@ This is a simple web application for detecting plagiarism between two PDF files.
 2. **Install the Required Packages**
 
     Make sure you have Python installed. Then, install the required packages using pip:
-
-    pip install streamlit scikit-learn nltk PyPDF2 pandas
-
+    
+     ```bash
+   pip install streamlit scikit-learn nltk PyPDF2 pandas
+     
 3. **Run the Application**
 
-    streamlit run app.py --server.enableXsrfProtection false
+     ```bash
+   streamlit run app.py --server.enableXsrfProtection false
+
+   
 
 4. **Upload PDF Files**
 
