@@ -8,6 +8,8 @@ from PyPDF2 import PdfReader
 from nltk.corpus import stopwords
 import string
 
+nltk.download('stopwords')
+
 def preprocess_text(text):
     text = text.lower()
     text = text.translate(str.maketrans('', '', string.punctuation))
